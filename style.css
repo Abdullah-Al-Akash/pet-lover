@@ -92,6 +92,28 @@ nav .dropdown-menu li:hover {
         =====================Form Part==========================
         ============================================================== */
 
+.book-section {
+        background: rgb(242, 242, 244);
+}
+
 .form-part {
         background: rgb(237, 100, 54);
+}
+
+.booking-title {
+        font-size: 30px;
+}
+
+.booking-text {
+        font-size: 50px;
+        font-weight: 700;
+}
+
+.orange {
+        color: rgb(237, 100, 54);
+}
+
+.icon {
+        font-size: 50px;
+        color: green;
 }
