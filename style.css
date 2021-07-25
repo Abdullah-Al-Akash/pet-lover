@@ -117,3 +117,21 @@ nav .dropdown-menu li:hover {
         font-size: 50px;
         color: green;
 }
+
+.services-part {
+        background: rgb(242, 242, 244);
+}
+
+.services-text {
+        font-size: 20px;
+}
+
+.services-text a {
+        color: rgb(232, 74, 21);
+        font-weight: 500;
+        text-decoration: none;
+}
+
+.services-text a:hover {
+        text-decoration: underline;
+}
