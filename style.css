@@ -11,7 +11,7 @@ body {
 .main-color {
         background: rgb(237, 100, 54);
         font-size: 25px;
-        font-weight: 500;
+        font-weight: 400;
         color: white
 }
 
@@ -19,13 +19,13 @@ body {
         color: white;
 }
 
-.btn:hover {
+.book-button:hover {
         background: rgb(232, 74, 21)
 }
 
 nav ul li a {
         font-size: 25px;
-        font-weight: 500;
+        font-weight: 400;
 }
 
 nav li:hover {
@@ -52,4 +52,38 @@ nav ul li .drop-down-a {
 
 nav .dropdown-menu li:hover {
         background: lightgray;
+}
+
+/* ===========================================================
+        =====================Slide Show Part==========================
+        ============================================================== */
+
+.slide-img {
+        opacity: 0.7;
+}
+
+.centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+}
+
+.centered h1 {
+        font-size: 5vw;
+}
+
+.centered h2 {
+        font-size: 3vw;
+}
+
+.learn-more-btn {
+        font-size: 25px;
+        color: black;
+}
+
+.learn-more-btn:hover {
+        color: white;
 }
