@@ -1,0 +1,55 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        width: 100%;
+}
+
+.main-color {
+        background: rgb(237, 100, 54);
+        font-size: 25px;
+        font-weight: 500;
+        color: white
+}
+
+.main-color:hover {
+        color: white;
+}
+
+.btn:hover {
+        background: rgb(232, 74, 21)
+}
+
+nav ul li a {
+        font-size: 25px;
+        font-weight: 500;
+}
+
+nav li:hover {
+        background: rgb(237, 100, 54);
+}
+
+nav li:hover a {
+        color: black
+}
+
+nav li {
+        padding: 10px 8px;
+}
+
+.navigation {
+        padding: 0;
+}
+
+nav ul li .drop-down-a {
+        color: black;
+        text-decoration: none;
+        padding: 0 5px;
+}
+
+nav .dropdown-menu li:hover {
+        background: lightgray;
+}
