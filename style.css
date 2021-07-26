@@ -59,7 +59,7 @@ nav .dropdown-menu li:hover {
         ============================================================== */
 
 .slide-img {
-        opacity: 0.7;
+        opacity: 0.5;
 }
 
 .centered {
@@ -134,4 +134,32 @@ nav .dropdown-menu li:hover {
 
 .services-text a:hover {
         text-decoration: underline;
+}
+
+.pricing-part {
+        background: rgb(242, 242, 244);
+}
+
+.price-centered {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+}
+
+.price-btn {
+        background: rgb(237, 100, 54);
+        color: white;
+}
+
+.price-btn:hover {
+        background: rgb(232, 74, 21);
+        color: white;
+}
+
+.pricing-details img {
+        width: 30px;
+        height: 30px;
 }
