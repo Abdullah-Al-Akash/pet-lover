@@ -152,6 +152,7 @@ nav .dropdown-menu li:hover {
 .price-btn {
         background: rgb(237, 100, 54);
         color: white;
+        height: 60px;
 }
 
 .price-btn:hover {
@@ -159,7 +160,6 @@ nav .dropdown-menu li:hover {
         color: white;
 }
 
-.pricing-details img {
-        width: 30px;
-        height: 30px;
+.pricing-text {
+        font-size: 22px;
 }
